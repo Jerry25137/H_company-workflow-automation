@@ -1,4 +1,4 @@
-# UD2 & UD7 Merge Files v3.1.4
+# UD2 & UD7 Merge Files v3.1.5
 
 本工具專為處理 H公司 UD2 系列與 UD7 系列超音波驅動器掃頻數據而設計，旨在 **「簡化操作流程，提升分析效率」**，可快速完成資料合併、圖表產出與共振點分析。  
 This tool is designed for processing Hcompany UD2 and UD7 series ultrasonic driver sweep data. Its goal is **"Simplify workflow and improve analysis efficiency"**, quickly completing data merging, chart generation, and resonance point analysis.
