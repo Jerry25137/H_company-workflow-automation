@@ -28,20 +28,20 @@ Its goal is **"Simplify temperature data processing and quickly generate visual 
 ## 功能總覽
 ### Features Overview
 
-1. 📥 **自動辨識設備格式**（PICO `.TXT` / AZ `.CSV`），自動解析資料欄位。  
+1. 📥 **自動辨識設備格式**（PICO `.CSV` / AZ `.TXT`），自動解析資料欄位。  
    📥 **Automatic device format detection** (PICO `.TXT` / AZ `.CSV`), automatically parses data columns.
 
 2. ✅ **通道選擇與自訂標籤**，支援最多 8 組熱電偶通道輸出。  
    ✅ **Channel selection and custom labels**, supports up to 8 thermocouple channels.
 
-3. ⏱️ **起始時間修正功能**（限 PICO `.TXT`），自動依照時間間隔補齊時間軸。  
-   ⏱️ **Start time correction** (PICO `.TXT` only), automatically fills the time axis according to intervals.
+3. ⏱️ **起始時間修正功能**（限 AZ `.TXT`），自動依照時間間隔補齊時間軸。  
+   ⏱️ **Start time correction** (AZ `.TXT` only), automatically fills the time axis according to intervals.
 
 4. 📊 匯出資料與圖表至 Excel（`Tempature_Output.xlsx`），內含平滑曲線、多通道色彩區分。  
    📊 Export data and charts to Excel (`Tempature_Output.xlsx`) with smooth curves and multi-channel color differentiation.
 
-5. 🧩 對 AZ `.CSV` 格式會自動補足缺失的通道欄，保證 Excel 格式一致。  
-   🧩 For AZ `.CSV` files, missing channels are automatically filled to ensure consistent Excel formatting.
+5. 🧩 對 PICO `.CSV` 格式會自動補足缺失的通道欄，保證 Excel 格式一致。  
+   🧩 For PICO `.CSV` files, missing channels are automatically filled to ensure consistent Excel formatting.
 
 ---
 
