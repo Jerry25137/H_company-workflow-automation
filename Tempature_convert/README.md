@@ -50,13 +50,13 @@ Its goal is **"Simplify temperature data processing and quickly generate visual 
 
 | 檔案類型 | 設備            | 特徵欄位                                | 時間處理方式          |
 |----------|-----------------|----------------------------------------|----------------------|
-| `.TXT`   | PICO TC-08      | 有 `時間間隔欄`（如 30s、1m）           | 可設定起始時間，自動推算 |
-| `.CSV`   | 88598 AZ EB     | 第一欄為 `Date time`，後續為溫度欄位   | 已內含絕對時間        |
+| `.TXT`   | 88598 AZ EB      | 有 `時間間隔欄`（如 30s、1m）           | 可設定起始時間，自動推算 |
+| `.CSV`   | PICO TC-08     | 第一欄為 `Date time`，後續為溫度欄位   | 已內含絕對時間        |
 
 | File Type | Device          | Key Columns                             | Time Handling         |
 |-----------|-----------------|----------------------------------------|----------------------|
-| `.TXT`    | PICO TC-08      | Interval column (e.g., 30s, 1m)        | Start time adjustable, automatically calculated |
-| `.CSV`    | 88598 AZ EB     | First column `Date time`, subsequent temperature columns | Absolute time included |
+| `.TXT`    | 88598 AZ EB      | Interval column (e.g., 30s, 1m)        | Start time adjustable, automatically calculated |
+| `.CSV`    | PICO TC-08     | First column `Date time`, subsequent temperature columns | Absolute time included |
 
 ---
 
@@ -86,8 +86,8 @@ Its goal is **"Simplify temperature data processing and quickly generate visual 
 1. 匯出前請關閉 `Tempature_Output.xlsx`，避免儲存失敗。  
    Close `Tempature_Output.xlsx` before exporting to avoid save failures.
 
-2. `.TXT` 資料來源需為 PICO TC-08 原始格式，時間欄需帶有秒 / 分單位（如 30s、1m）。  
-   `.TXT` source files must be in PICO TC-08 original format, with time column in seconds/minutes (e.g., 30s, 1m).
+2. `.TXT` 資料來源需為 88598 AZ EB 原始格式，時間欄需帶有秒 / 分單位（如 30s、1m）。  
+   `.TXT` source files must be in 88598 AZ EB original format, with time column in seconds/minutes (e.g., 30s, 1m).
 
 3. `.CSV` 欄位須包含 `Date time` 與至少一筆溫度資料（會自動補足缺漏通道）。  
    `.CSV` files must include `Date time` column and at least one temperature column (missing channels are auto-filled).
